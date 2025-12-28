@@ -1,0 +1,16 @@
+# top-most EditorConfig file
+root = true
+
+[*]
+# Use Unix-style newlines
+end_of_line = lf
+# Ensure a final newline is inserted at the end of files
+insert_final_newline = true
+# Trim trailing whitespace
+trim_trailing_whitespace = true
+
+[*.go]
+# Go projects typically use tabs for indentation
+indent_style = tab
+# Tab width is typically 8 in Go
+tab_width = 8
